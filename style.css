@@ -37,6 +37,10 @@ body {
     font-size: 20px;
 }
 
+.junior {
+    margin-bottom: 50px;
+}
+
 .main {
     max-width: 800px;
     margin: 0 auto;
