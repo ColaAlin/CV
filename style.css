@@ -1,0 +1,49 @@
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Abyssinica SIL", sans-serif;
+}
+
+h1 {
+    font-family: "Alkalami", sans-serif;
+    font-size: 40px;
+}
+
+h2,
+h3 {
+    font-family: "Alkalami", sans-serif;
+    font-size: 30px;
+    color: #00008B;
+}
+
+h4 {
+    font-family: "Alkalami", sans-serif;
+    font-size: 20px;
+    color: #00008B;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #00BFFF;
+    font-size: 20px;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.time {
+    color: #0000CD;
+}
+
