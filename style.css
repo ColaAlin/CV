@@ -33,8 +33,9 @@ body {
 .header {
     padding: 50px 20px;
     text-align: center;
-    background-color: #00BFFF;
     font-size: 20px;
+    background: rgb(0,212,255);
+background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.7049194677871149) 95%);
 }
 
 .junior {
