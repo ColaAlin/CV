@@ -82,3 +82,7 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 .nav-link + .nav-link {
     margin-left: 40px;
 }
+
+.hover:hover {
+    color: rgb(173, 173, 246);
+}
