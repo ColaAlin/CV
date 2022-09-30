@@ -54,3 +54,10 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
     color: #0000CD;
 }
 
+.nav-link {
+    color: inherit;
+}
+
+.nav-link:hover {
+    color: rgb(5, 9, 239);
+}
