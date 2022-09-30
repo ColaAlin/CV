@@ -86,3 +86,7 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 .hover:hover {
     color: rgb(173, 173, 246);
 }
+
+.hover {
+    color: blueviolet;
+}
