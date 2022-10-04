@@ -54,7 +54,7 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 }
 
 .main {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 16px;
 }
@@ -115,3 +115,15 @@ p::first-letter {
     content: '💻';
 }
 
+/***********************************************/
+/* Display property*/
+
+.experience-heading {
+    display: inline-block;
+    -visibility: hidden;
+}
+
+.experience-subheading {
+    display: inline-block;
+    _visibility: hidden;
+  }
