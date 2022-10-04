@@ -95,6 +95,9 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
     color: blueviolet;
 }
 
+/********************************************************/
+/* Styling with Pseudo-Elements*/
+
 p::first-letter {
   font-size: 150%;
 }
