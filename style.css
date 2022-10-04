@@ -144,6 +144,5 @@ p::first-letter {
 
 .article-heading {
     position: relative;
-    left: -16px;
-
+    left: -20px;
 }
