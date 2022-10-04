@@ -56,7 +56,7 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 .main {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 16px;
+    padding: 0 16px;
 }
 
 .main > * + * {
@@ -116,7 +116,7 @@ p::first-letter {
 }
 
 /***********************************************/
-/* Display property*/
+/* Display property */
 
 .experience-heading {
     display: inline-block;
@@ -127,3 +127,23 @@ p::first-letter {
     display: inline-block;
     _visibility: hidden;
   }
+
+/***********************************************/
+/* Position */
+
+
+.hire-me {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: black;
+}
+
+.article-heading {
+    position: relative;
+    left: -16px;
+
+}
