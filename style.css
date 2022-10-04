@@ -49,6 +49,10 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
     font-weight: bolder;
 }
 
+.junior::first-letter{
+    font-size: 100%;
+}
+
 .main {
     max-width: 800px;
     margin: 0 auto;
@@ -90,3 +94,21 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 .hover {
     color: blueviolet;
 }
+
+p::first-letter {
+  font-size: 150%;
+}
+
+::selection {
+    background-color: blue;
+    color: white;
+}
+
+.strong1::after {
+    content: '📚';
+}
+
+.strong2::after {
+    content: '💻';
+}
+
