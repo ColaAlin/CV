@@ -12,6 +12,29 @@ html {
     font-size: 1rem;
 }
 
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 8px;
+    }
+
+@media screen and (min-width: 700px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    html {
+        font-size: 25px;
+    }
+}
+
 h1 {
     font-family: "Alkalami", sans-serif;
     font-size: 2.5rem;
@@ -75,6 +98,12 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
     margin-top: 4rem;
 }
 
+@media screen and (min-width: 375px) {
+    .main > * + * {
+        margin-top: 2.5rem;
+    }
+}
+
 .main > * {
     border-top: 0.2rem solid blue;
     padding: 0 1rem;
@@ -86,6 +115,10 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 
 .time {
     color: #0000CD;
+}
+
+_.navigation {
+    display: none;
 }
 
 .nav-link {
@@ -155,6 +188,18 @@ p::first-letter {
     background-color: dodgerblue;
     color: black;
 }
+
+
+@media screen and (min-width: 992px) {
+    .hire-me {
+        position: fixed;
+    }
+
+    @media print {
+        .hire-me {
+            display: none;
+        }
+    }
 
 .article-heading {
     position: relative;
