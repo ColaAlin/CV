@@ -9,43 +9,43 @@
 
 html {
     font-family: "Abyssinica SIL", sans-serif;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 h1 {
     font-family: "Alkalami", sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 h2,
 h3 {
     font-family: "Alkalami", sans-serif;
-    font-size: 30px;
+    font-size: 1.5rem;
     color: #00008B;
 }
 
 h4 {
     font-family: "Alkalami", sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #00008B;
 }
 
 body {
-    margin: 0px;
+    margin: 0rem;
 }
 /*****************************************************/
 /* Specific Styling*/
 
 .header {
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5rem;
     background: rgb(0,212,255);
 background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.7049194677871149) 95%);
 }
 
 .junior {
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
     font-weight: bolder;
 }
 
@@ -54,17 +54,17 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 }
 
 .main {
-    max-width: 1100px;
+    max-width: 70rem;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 4rem;
 }
 
 .main > * + * {
-    margin-top: 48px;
+    margin-top: 4rem;
 }
 
 .main > * {
-    border-top: 2px solid blue;
+    border-top: .2rem solid blue;
 }
 
 .main > *:first-child {
@@ -84,7 +84,7 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 }
 
 .nav-link + .nav-link {
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 
 .hover:hover {
@@ -134,15 +134,15 @@ p::first-letter {
 
 .hire-me {
     position: absolute;
-    right: 16px;
-    top: 16px;
-    padding: 8px;
-    border-radius: 4px;
+    right: 1rem;
+    top: 1rem;
+    padding: .5rem;
+    border-radius: 4rem;
     background-color: dodgerblue;
     color: black;
 }
 
 .article-heading {
     position: relative;
-    left: -20px;
+    left: -2rem;
 }
