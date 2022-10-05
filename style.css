@@ -16,6 +16,7 @@ html {
     html {
         font-size: 8px;
     }
+}
 
 @media screen and (min-width: 700px) {
     html {
@@ -29,9 +30,9 @@ html {
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1400px) {
     html {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -117,10 +118,6 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
     color: #0000CD;
 }
 
-_.navigation {
-    display: none;
-}
-
 .nav-link {
     padding: 0.25rem 0.5rem;
     color: inherit;
@@ -167,7 +164,7 @@ p::first-letter {
 
 .experience-heading {
     display: inline-block;
-    -visibility: hidden;
+    _visibility: hidden;
 }
 
 .experience-subheading {
@@ -194,9 +191,13 @@ p::first-letter {
     .hire-me {
         position: fixed;
     }
+}
 
-    @media print {
+@media print {
         .hire-me {
+            display: none;
+        }
+        .navigation {
             display: none;
         }
     }
