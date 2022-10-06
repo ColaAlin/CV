@@ -127,9 +127,25 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
     color: rgb(5, 9, 239);
 }
 
-.nav-link + .nav-link {
-    margin-left: 4rem;
+@media screen and (min-width: 768px) {
+    .nav-link + .nav-link {
+      margin-left: 1rem;
+    }
+  }
+  
+
+.navigation {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+    .navigation {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
 
 .hover:hover {
     color: rgb(173, 173, 246);
@@ -162,15 +178,20 @@ p::first-letter {
 /***********************************************/
 /* Display property */
 
-.experience-heading {
-    display: inline-block;
-    _visibility: hidden;
-}
-
-.experience-subheading {
-    display: inline-block;
-    _visibility: hidden;
+.experience-header {
+    display: flex;
+    flex-direction: column;
   }
+
+
+ @media screen and (min-width: 768px) {
+        .experience-header {
+          display: flex;
+          flex-direction: row;
+          align-items: baseline;
+          justify-content: space-between;
+        }
+      }
 
 /***********************************************/
 /* Position */
