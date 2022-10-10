@@ -106,7 +106,7 @@ background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.704
 }
 
 .main > * {
-    border-top: 0.2rem solid blue;
+    border-top: 0.2rem solid  rgb(0,212,255);
     padding: 0 1rem;
 }
 
@@ -226,4 +226,22 @@ p::first-letter {
 .article-heading {
     position: relative;
     left: -2rem;
+}
+
+.footer {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+footer {
+    background: rgb(0,212,255);
+background: linear-gradient(360deg, rgba(0,212,255,1) 0%, rgba(244,248,249,0.7049194677871149) 95%);
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer::first-letter{
+    font-size: 1rem;
 }
