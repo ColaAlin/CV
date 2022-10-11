@@ -24,10 +24,6 @@ body {
 }
 
 /********* Dark Mode **********/
-_body {
-  --background-color: var(--text-color);
-  --text-color: var(--background-color);
-}
 
 _@media screen and (prefers-color-scheme: dark) {
   body {
