@@ -17,7 +17,7 @@ body {
   --text-color: black;
   --accent-color: #00d4ff;
   --accent-text-color: black;
-  --nav-link-active-bg-color: violet;
+  _--nav-link-active-bg-color: violet;
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
@@ -65,13 +65,13 @@ h2,
 h3 {
   font-family: "Alkalami", sans-serif;
   font-size: 1.5rem;
-  color: #00008b;
+  color: var(--text-color);
 }
 
 h4 {
   font-family: "Alkalami", sans-serif;
   font-size: 1.5rem;
-  color: #00008b;
+  color: var(--text-color);
 }
 
 body {
@@ -140,7 +140,7 @@ body {
 }
 
 .time {
-  color: #0000cd;
+  color: var(--text-color);
 }
 
 .nav-link {
@@ -182,11 +182,11 @@ body {
 }
 
 .hover:hover {
-  color: rgb(173, 173, 246);
+  color: var(--accent-color);
 }
 
 .hover {
-  color: blueviolet;
+  color: var(--accent-color);
 }
 
 /********************************************************/
@@ -198,7 +198,6 @@ p::first-letter {
 
 ::selection {
   background-color: var(--accent-color);
-  color: white;
 }
 
 .strong1::after {
