@@ -146,10 +146,25 @@ body {
 .nav-link {
   padding: 0.25rem 0.5rem;
   color: var(--accent-text-color);
+  transition: background-color 0.25s ease-in-out;
 }
 
 .nav-link:hover {
   background-color: var(--accent-color);
+  color: var(--accent-text-color);
+}
+
+.nav-link:focus {
+  background-color: var(--accent-color);
+  outline-color: var(--accent-text-color);
+  outline-style: dotted;
+}
+
+.nav-link:active {
+  background-color: var(--nav-link-active-bg-color);
+  color: var(--accent-color);
+}
+.nav-link:visited {
   color: var(--accent-text-color);
 }
 
@@ -165,15 +180,6 @@ body {
   align-items: center;
 }
 
-.nav-link:active {
-  background-color: var(--nav-link-active-bg-color);
-  color: var(--accent-color);
-}
-
-.nav-link:visited {
-  color: var(--accent-text-color);
-}
-
 @media screen and (min-width: 768px) {
   .navigation {
     flex-direction: row;
@@ -181,11 +187,11 @@ body {
   }
 }
 
-.hover:hover {
+_.hover:hover {
   color: var(--accent-color);
 }
 
-.hover {
+_.hover {
   color: var(--accent-color);
 }
 
@@ -266,7 +272,7 @@ p::first-letter {
     var(--accent-color)
   );
   text-align: center;
-  margin-top: 2.5rem;
+  margin-bottom: 0;
   padding: 2.5rem;
 }
 
