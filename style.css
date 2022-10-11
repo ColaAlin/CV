@@ -23,7 +23,8 @@ body {
   color: var(--text-color);
 }
 
-body {
+/********* Dark Mode **********/
+_body {
   --background-color: var(--text-color);
   --text-color: var(--background-color);
 }
