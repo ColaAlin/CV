@@ -1,0 +1,11 @@
+body {
+    --page-background-color: white;
+    --page-text-color: black;
+  }
+  
+  @media screen and (prefers-color-scheme: dark) {
+    body {
+      --page-background-color: black;
+      --page-text-color: white;
+    }
+  }
