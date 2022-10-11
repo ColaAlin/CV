@@ -1,4 +1,4 @@
-/*****************+++++++++++++++++++++++++++++++*******/
+/************************/
 /* General Styling*/
 
 *,
@@ -86,7 +86,7 @@ h4 {
 body {
   margin: 0rem;
 }
-/*****************************************************/
+/*************************************/
 /* Specific Styling*/
 
 .header {
@@ -100,6 +100,10 @@ body {
   );
   position: relative;
   color: var(--accent-text-color);
+}
+
+.header:hover .hire-me {
+    transform: scale(2);
 }
 
 .heading-group {
@@ -204,7 +208,7 @@ body {
   color: var(--accent-color);
 }
 
-/********************************************************/
+/********************************/
 /* Styling with Pseudo-Elements*/
 
 p::first-letter {
@@ -223,7 +227,7 @@ p::first-letter {
   content: "💻";
 }
 
-/***********************************************/
+/***********************/
 /* Display property */
 
 .experience-header {
@@ -240,7 +244,7 @@ p::first-letter {
   }
 }
 
-/***********************************************/
+/***************************/
 /* Position */
 
 .hire-me {
@@ -248,8 +252,11 @@ p::first-letter {
   right: 1rem;
   top: 1rem;
   padding: 0.5rem;
-  border-radius: 4rem;
+  border-radius: .5rem;
+  opacity: 0.75;
   background: var(--accent-color);
+  transform-origin: top right;
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
 }
 
 @media screen and (min-width: 992px) {
