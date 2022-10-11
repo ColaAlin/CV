@@ -106,6 +106,10 @@ body {
     transform: scale(2);
 }
 
+.header:focus-within .hire-me {
+    transform: scale(1.5);
+}
+
 .heading-group {
   font-size: 1.5rem;
 }
