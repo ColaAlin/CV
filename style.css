@@ -17,7 +17,7 @@ body {
   --text-color: black;
   --accent-color: #00d4ff;
   --accent-text-color: black;
-  _--nav-link-active-bg-color: violet;
+  --nav-link-active-bg-color: violet;
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
@@ -196,11 +196,11 @@ body {
   }
 }
 
-_.hover:hover {
+.hover:hover {
   color: var(--accent-color);
 }
 
-_.hover {
+.hover {
   color: var(--accent-color);
 }
 
