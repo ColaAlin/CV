@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-:root {
-
-}
-
 html {
   font-family: "Abyssinica SIL", sans-serif;
   font-size: 1rem;
@@ -28,16 +24,16 @@ body {
 }
 
 body {
-    --background-color: var(--text-color);
-    --text-color: var(--background-color);
-  }
-  
+  --background-color: var(--text-color);
+  --text-color: var(--background-color);
+}
+
 _@media screen and (prefers-color-scheme: dark) {
-    body {
-      --background-color: black;
-      --text-color: white;
-    }
+  body {
+    --background-color: black;
+    --text-color: white;
   }
+}
 
 a,
 a:link,
