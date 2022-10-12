@@ -167,11 +167,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr;
   }
+  .main-article-content {
+    margin-top: 4rem;
+  }
 }
 
-.main-article-content {
-  margin-top: 4rem;
-}
 
 .time {
   color: var(--text-color);
